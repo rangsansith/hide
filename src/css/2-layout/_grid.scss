@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+
+.l-wrapper {
+	position: relative;
+	width: 90%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.l-flex {
+	display: flex;
+	height: 100%;
+
+	&--center {
+		@extend .l-flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&--center-between {
+		@extend .l-flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}

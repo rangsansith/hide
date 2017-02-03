@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+// 1 - Base
+@import 'css/1-base/normalize';
+@import 'css/1-base/fonts';
+@import 'css/1-base/vars';
+@import 'css/1-base/body-element';
+@import 'css/1-base/typography';
+@import 'css/1-base/links';
+@import 'css/1-base/selection-colors';
+
+// 2 - Layout
+@import 'css/2-layout/grid';

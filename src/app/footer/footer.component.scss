@@ -1,0 +1,19 @@
+@import '../../css/1-base/vars';
+@import '../../css/1-base/typography';
+
+.footer {
+  height: 200px;
+  background-color: $primary;
+
+  &__logo {
+    color: $white;
+    font-weight: 700;
+    font-family: $helvetica;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+
+    h1 {
+      @include font-size(20);
+    }
+  }
+}

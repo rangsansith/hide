@@ -1,0 +1,64 @@
+@import '../../css/1-base/vars';
+@import '../../css/1-base/typography';
+
+.products {
+  padding: 4rem 0;
+
+  &__options {
+    justify-content: space-between;
+    padding: 0 2rem;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+.product {
+  width: 33.33%;
+  padding: 2rem;
+  cursor: pointer;
+
+  &__thumbnail {
+    width: 100%;
+  }
+
+  &__info {
+    justify-content: space-between;
+    margin-top: 1rem;
+
+    .name,
+    .price {
+      display: block;
+      font-weight: 700;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+
+  .product {
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 738px) {
+
+  .products {
+
+    &__options {
+      padding: 0;
+    }
+  }
+
+  .product {
+    width: 100%;
+    padding: 2rem 0;
+  }
+
+}
