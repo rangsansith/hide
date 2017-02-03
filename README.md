@@ -8,6 +8,7 @@ This project was developed with HTML5, SCSS, TypeScript, Angular 2, and Firebase
 
 ## Credits:
 
+* [Ugmonk](http://shop.ugmonk.com) product images
 * [Vivek Ravin](https://www.behance.net/vivekravin) provided design
 
 ## Misc:
